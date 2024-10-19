@@ -1,5 +1,5 @@
 .footer {
-    padding: calc(var(--section-padding) / 2) var(--section-padding) ;
+    padding: calc(var(--section-padding) / 8);
     background-color: var(--cwo-black);
     color: whitesmoke;
 
