@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Categories.css'
 import { soloWomen, soloMen, teamOpen, teamOpenDead } from './CategoriesDefinition';
+import { AnimatePresence } from 'framer-motion';
 
 function Categories() {
     const [selected, setSelected] = useState('teamOpen');
@@ -33,12 +34,12 @@ function Categories() {
                     </ul>
                 </div>
                 <div className='categories-content'>
-                    <div>
+                    <AnimatePresence mode='wait'>
                         {selected === 'women' && soloWomen}
                         {selected === 'men' && soloMen}
                         {selected === 'teamOpen' && teamOpen}
                         {selected === 'teamOpenDead' && teamOpenDead}
-                    </div>
+                    </AnimatePresence>
                 </div>
             </div>
         </section>

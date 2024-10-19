@@ -16,6 +16,7 @@
     "@types/node": "^16.18.113",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
+    "framer-motion": "^11.11.9",
     "ol": "^10.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
