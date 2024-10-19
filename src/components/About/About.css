@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    padding: var(--section-padding);
+    padding: calc(var(--section-padding) / 2) var(--section-padding);
     justify-content: space-around;
 
     

@@ -1,5 +1,5 @@
 .placetime {
-    padding: var(--section-padding);
+    padding: calc(var(--section-padding) / 2) var(--section-padding);
     background-color: var(--cwo-black);
     color: whitesmoke;
     display: flex;

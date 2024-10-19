@@ -1,5 +1,6 @@
 .timeline {
-    padding: var(--section-padding);
+    padding: calc(var(--section-padding) / 2) var(--section-padding);
+
     color: whitesmoke;
     
     /*
