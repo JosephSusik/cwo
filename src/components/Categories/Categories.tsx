@@ -11,9 +11,9 @@ function Categories() {
     }
     return(
         <section className='categories'>
+            <p className='headline'>Kategorie</p>
             <div className='categories-inner'>
                 <div className='categories-select'>
-                    <p className='headline'>Kategorie</p>
                     <ul>
                         <li onClick={()=>handleClick('women')}
                             className={selected === 'women'? 'active' : ''}>

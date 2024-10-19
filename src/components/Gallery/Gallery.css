@@ -1,5 +1,5 @@
 .gallery {
-    padding: var(--section-padding);
+    padding: calc(var(--section-padding) / 6) var(--section-padding);
     background-color: var(--cwo-black);
     color: whitesmoke;
 
