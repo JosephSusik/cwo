@@ -19,7 +19,7 @@ function Footer() {
                     <p className='name'>Mgr. Martin Kutý</p>
                     <p className='function'>Marketingový ředitel soutěže</p>
                 </div>
-                <IgHandle igHandle={'coach_kuty_the_rapist'} />
+                <IgHandle igHandle={'coach_kuty_therapist'} />
                 <EmailHandle email={'kuty.martin@seznam.cz'} />
             </div>
             
